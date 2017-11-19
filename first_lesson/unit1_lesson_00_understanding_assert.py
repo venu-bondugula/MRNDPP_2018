@@ -27,27 +27,27 @@ CHANGE the placeholders.py file which defines the constant!
 
 
 def test_assert_true():
-    assert ___ #This should be True -- replace ___ with True.
+    assert True #This should be True -- replace ___ with True.
 
 def test_assert_true_with_message():
     print("test print")
-    assert ___, "This is the failure message" # what error do you see when you run this test?
+    assert True, "This is the failure message" # what error do you see when you run this test?
                                               # replace ___ with True to stop seeing the assertion error
 
 def test_assert_equality():
-    assert __ == 2 + 5   #replace __ with the expected value
+    assert 7 == 2 + 5   #replace __ with the expected value
 
 #Fill in __ in the statements below to make the asserts succeed
 def test_make_assert_true_1():
-    assert ___ > 7, "Fill in a value greater than 7"
+    assert 9 > 7, "Fill in a value greater than 7"
 
 #you can use the interpreter to find the value of 2**30
 def test_make_assert_true_2():
-    assert ___ > 2**30, "Fill in value greater than 2**30"
+    assert 1073741825 > 2**30, "Fill in value greater than 2**30"
 
 def test_make_assert_true_3():
     s1 = "Hello, World"
-    s2 = __
+    s2 = 'Hello, World'
     assert s1 == s2
 
 three_things_i_learnt = """
